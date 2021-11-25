@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome  } from '@fortawesome/free-solid-svg-icons';
 import {faHeart, faCompass, faPaperPlane, faPlusSquare} from "@fortawesome/free-regular-svg-icons"
-import { auth } from '../../../Initializers/firebase-Config';
+import { auth } from '../../../../Initializers/firebase-Config';
 
 const HeaderOptions = () => {
     

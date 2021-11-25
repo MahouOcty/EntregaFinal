@@ -1,7 +1,7 @@
 import { signOut } from '@firebase/auth';
 import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { auth } from '../../../../../Initializers/firebase-Config';
+import { auth } from '../../../../../../Initializers/firebase-Config';
 import RecommendedElement from '../Components/RecommendedElement';
 
 
